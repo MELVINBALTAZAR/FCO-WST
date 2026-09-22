@@ -1,0 +1,49 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #eeeeee;
+    color: #222222;
+}
+
+main {
+    flex: 1;
+}
+
+.main-navbar,
+.main-footer {
+    background-color: #0d6efd;
+}
+
+.page-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section-banner {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.main-navbar .container {
+    gap: 10px;
+}
+
+.main-navbar .nav {
+    gap: 5px;
+}
+
+h1,
+h2,
+h4,
+h5 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
